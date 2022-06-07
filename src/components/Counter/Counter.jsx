@@ -5,13 +5,12 @@ const Counter = (props) => {
     const {count} = props;
     return (
         <div className="counter">
-            <h3 classname="counter__heading">Counter</h3>
-            <h4 classname="counter__count">{count}</h4>
-            <div classname="counter__buttons">
-                <button>-</button>
-                <button>+</button>
+            <h3 className="counter__heading">Counter</h3>
+            <h4 className="counter__count">{count}</h4>
+            <div className="counter__buttons">
+                <button className="counter__buttons__button">-</button>
+                <button className="counter__buttons__button">+</button>
             </div>
-            
         </div>
     )
 }

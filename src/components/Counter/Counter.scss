@@ -2,28 +2,40 @@
 
 .counter {
     width: 90%;
-    height: 100px;
+    height: 150px;
     border: 2px solid black;
-    justify-self: flex-end;
+    border-radius: 10px;
+
+    margin-top: auto;
     align-self: center;
-    margin-bottom: 10px;
-    display:flex;
-    justify-content: center;
+
+    display: flex;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 
     &__heading {
         font-size: 20px;
-        color:red;
+        margin: 0px; 
     }
 
-    // &__count {
-
-    // }
+    &__count {
+        font-size: 40px;
+        margin: 0px;
+    }
 
     &__buttons {
         display: flex;
         justify-content: space-around;
+        width: 50%;
+
+        &__button {
+            height: 30px;
+            width: 30px;
+            text-align: center;
+            font-size: 25px;
+            vertical-align: center;
+
+        }
     }
-    
 }
