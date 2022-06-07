@@ -1,0 +1,29 @@
+@use "../../assets/sass/variable" as *;
+
+.counter {
+    width: 90%;
+    height: 100px;
+    border: 2px solid black;
+    justify-self: flex-end;
+    align-self: center;
+    margin-bottom: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__heading {
+        font-size: 20px;
+        color:red;
+    }
+
+    // &__count {
+
+    // }
+
+    &__buttons {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}

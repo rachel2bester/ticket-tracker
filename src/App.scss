@@ -1,0 +1,12 @@
+@use "./assets/sass/variable" as *;
+
+.App {
+    margin: 10px;
+    border:solid black 2px;
+}
+
+.employee-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
