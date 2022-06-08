@@ -8,9 +8,10 @@ const Employee = (props) => {
         <div className="employee">
             <h1 className="employee__name">{name}</h1>
             <h2 className="employee__role">{role}</h2>
-            <Counter count={1} />
+            <Counter/>
         </div>
     )
 }
 
 export default Employee;
+
