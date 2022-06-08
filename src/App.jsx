@@ -44,6 +44,9 @@ function App() {
     newTeamJSX.unshift(<Employee key={maxKey(team)+1} name={name} role={role} countStart={count}/>)
     setTeamJSX(newTeamJSX);
     setDisplayNew(!displayNew);
+    setName("");
+    setRole("");
+    setCount("");
   }
 
   const maxKey = (team) => {
