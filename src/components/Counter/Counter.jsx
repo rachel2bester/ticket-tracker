@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 import './Counter.scss'
 
-const Counter = () => {
-
-    const [count, setCount] = useState(Math.floor(Math.random()*20));
+const Counter = (props) => {
+    const {start} = props;
+    const [count, setCount] = useState(!(start === undefined) ? start : Math.floor(Math.random() * 21));
 
     const handleIncrement = () => {
         setCount(count + 1)
